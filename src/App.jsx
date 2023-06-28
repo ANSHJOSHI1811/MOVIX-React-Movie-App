@@ -38,7 +38,7 @@ function App() {
 
   return (
  <BrowserRouter>
- {/* <Header/> */}
+ <Header/>
  <Routes>
   <Route path="/" element={<Home/>}/>
   <Route path="/:mediaType/:id" element={<Details/>}/>
@@ -46,7 +46,7 @@ function App() {
   <Route path="/explore/:mediaType" element={<Explore/>}/>
   <Route path="*" element={<pageNotFound/>}/>
  </Routes>
- {/* <Footer/> */}
+ <Footer/>
  </BrowserRouter>
 
 
