@@ -24,16 +24,16 @@ const Footer = () => {
                 </div>
                 <div className="socialIcons">
                     <span className="icon">
-                        <Link to="https://github.com/ANSHJOSHI1811"><FaGithub style={{color:"#5271ff"}}/></Link>
+                        <Link to="https://github.com/ANSHJOSHI1811"><FaGithub style={{color:"aliceblue"}}/></Link>
                     </span>
                     <span className="icon">
-                       <Link to="https://www.anshjoshi.vercel.app"><FaLink style={{color:"#5271ff"}} /></Link> 
+                       <Link to="https://www.anshjoshi.vercel.app"><FaLink style={{color:"aliceblue"}} /></Link> 
                     </span>
                     <span className="icon">
-                       <Link to="https://www.linkedin.com/in/ansh-joshi-6162951b3/"><FaLinkedin style={{color:"#5271ff"}} /></Link> 
+                       <Link to="https://www.linkedin.com/in/ansh-joshi-6162951b3/"><FaLinkedin style={{color:"aliceblue"}} /></Link> 
                     </span>
                     <span className="icon">
-                        <Link to="mailto:anshsjoshi@outlook.com"> <FaMailBulk style={{color:"#5271ff"}}/></Link>
+                        <Link to="mailto:anshsjoshi@outlook.com"> <FaMailBulk style={{color:"aliceblue"}}/></Link>
                        
                     </span>
                 </div>
