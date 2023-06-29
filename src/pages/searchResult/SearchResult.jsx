@@ -8,7 +8,7 @@ import { fetchDataFromApi } from "../../utils/api";
 import ContentWrapper from "../../components/contentWrapper/ContentWrapper";
 import MovieCard from "../../components/moviecard/MovieCard"
 import Spinner from "../../components/spinnner/Spinner";
-import noResults from "../../assets/no-results.png";
+import Results from "../../assets/results.png";
 
 const SearchResult = () => {
     const [data, setData] = useState(null);
@@ -82,9 +82,18 @@ const SearchResult = () => {
                             </InfiniteScroll>
                         </>
                     ) : (
+                        <>
                         <span className="resultNotFound">
                             Sorry, Results not found!
                         </span>
+                        <br/>
+                        <img src={Results} alt="" className=""   style={{
+          width: '20%',
+          height: '20%',
+          borderRadius: '50%',
+          boxShadow: '0 0 10px rgba(0, 0, 0, 0.2)',
+        }} />
+                        </>
                     )}
                 </ContentWrapper>
             )}
