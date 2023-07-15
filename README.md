@@ -1,8 +1,8 @@
-# Movix - Personal Project
+# Movix
 
 ## Project Overview
 
-Movix is a personal project aimed at developing an interactive and visually appealing web application using React.js, Redux, and SCSS. The goal of this project is to create a movie recommendation platform that provides users with a seamless experience for discovering and exploring movies.
+Movix is aimed at developing an interactive and visually appealing web application using React.js, Redux, and SCSS. The goal of this project is to create a movie recommendation platform that provides users with a seamless experience for discovering and exploring movies.
 
 ## Project Features
 
